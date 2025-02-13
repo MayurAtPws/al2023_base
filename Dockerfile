@@ -1,5 +1,5 @@
 # Use the Amazon Linux 2023 base image
-FROM amazonlinux:2023.5.20241001.1
+FROM amazonlinux:2023.6.20250203.1
 
 ADD . /app/
 # RUN dnf -y --releasever=latest update
